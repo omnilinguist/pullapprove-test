@@ -1,14 +1,30 @@
 version: 3
-
 groups:
-  general:
+  code:
+    reviews:
+      required: 1
+      #request: 1
+      request_order: given
+
     reviewers:
       users:
         - blockjon
-        - eien 
+        - eien
         - omnilinguist
         - wuangq
         - zhbl
-    reviews:
-      required: 1
-      request_order: random
+
+#version: 3
+#
+#groups:
+#  general:
+#    reviewers:
+#      users:
+#        - blockjon
+#        - eien 
+#        - omnilinguist
+#        - wuangq
+#        - zhbl
+#    reviews:
+#      required: 1
+#      request_order: random
