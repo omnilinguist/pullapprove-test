@@ -8,11 +8,11 @@ groups:
 
     reviewers:
       users:
-        - blockjon
-        - eien
-        - omnilinguist
-        - wuangq
-        - zhbl
+      - blockjon
+      - eien
+      - omnilinguist
+      - wuangq
+      - zhbl
 
 #version: 3
 #
