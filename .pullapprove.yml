@@ -1,0 +1,28 @@
+version: 3
+
+group_defaults:
+    approve_by_comment:
+        enabled: true
+        approve_regex: '^(?i)(lgtm|approved)'
+        reject_regex: '^rejected'
+    github_reviews:
+        enabled: true
+    reject_value: -1
+    reset_on_push:
+        enabled: false
+    conditions:
+        files:
+            exclude:
+                - "*test*.py"
+
+groups:
+  general:
+    reviewers:
+      users:
+        - blockjon
+        - eien 
+        - omnilinguist
+        - wuangq
+        - zhbl
+    reviews:
+      required: 1
