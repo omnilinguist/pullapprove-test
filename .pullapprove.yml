@@ -3,28 +3,11 @@ groups:
   code:
     reviews:
       required: 1
-      request: 1
-      request_order: given
+      request_order: random
 
     reviewers:
       users:
       - blockjon
       - eien
       - omnilinguist
-      - wuangq
       - zhbl
-
-#version: 3
-#
-#groups:
-#  general:
-#    reviewers:
-#      users:
-#        - blockjon
-#        - eien 
-#        - omnilinguist
-#        - wuangq
-#        - zhbl
-#    reviews:
-#      required: 1
-#      request_order: random
